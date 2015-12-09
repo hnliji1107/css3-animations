@@ -1,4 +1,4 @@
-html, body {
+body {
   overflow-x: hidden;
 }
 .carousel-image-3d {
@@ -15,10 +15,6 @@ html, body {
   position: relative;
   width: 23.4375rem;
   height: 12.1875rem;
-
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 .carousel-image-3d li {
@@ -27,12 +23,7 @@ html, body {
   top: 0;
   width: 10.90625rem;
   height: 12.1875rem;
-
-  -webkit-transition: all .3s ease-out;
-  -moz-transition: all .3s ease-out;
-  -ms-transition: all .3s ease-out;
-  -o-transition: all .3s ease-out;
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 .carousel-image-3d li.left-pre,
 .carousel-image-3d li.left-1,
@@ -46,31 +37,17 @@ html, body {
 .carousel-image-3d li.middle {
   left: 6.21875rem;
   z-index: 3;
-
-  -webkit-transform: perspective(150px) rotateY(0deg);
-  -moz-transform: perspective(150px) rotateY(0deg);
-  -ms-transform: perspective(150px) rotateY(0deg);
-  -o-transform: perspective(150px) rotateY(0deg);
   transform: perspective(150px) rotateY(0deg);
 }
 .carousel-image-3d li.left-pre,
 .carousel-image-3d li.left-1,
 .carousel-image-3d li.left-2 {
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -ms-transform-origin: left center;
-  -o-transform-origin: left center;
   transform-origin: left center;
 }
 .carousel-image-3d li.left-pre,
 .carousel-image-3d li.left-1 {
   left: 0.5rem;
   z-index: 1;
-
-  -webkit-transform: perspective(150px) rotateY(30deg);
-  -moz-transform: perspective(150px) rotateY(30deg);
-  -ms-transform: perspective(150px) rotateY(30deg);
-  -o-transform: perspective(150px) rotateY(30deg);
   transform: perspective(150px) rotateY(30deg);
 }
 .carousel-image-3d li.left-pre {
@@ -83,31 +60,17 @@ html, body {
 .carousel-image-3d li.left-2 {
   left: 3rem;
   z-index: 2;
-
-  -webkit-transform: perspective(150px) rotateY(30deg);
-  -moz-transform: perspective(150px) rotateY(30deg);
-  -ms-transform: perspective(150px) rotateY(30deg);
-  -o-transform: perspective(150px) rotateY(30deg);
   transform: perspective(150px) rotateY(30deg);
 }
 .carousel-image-3d li.right-pre,
 .carousel-image-3d li.right-1,
 .carousel-image-3d li.right-2 {
-  -webkit-transform-origin: right center;
-  -moz-transform-origin: right center;
-  -ms-transform-origin: right center;
-  -o-transform-origin: right center;
   transform-origin: right center;
 }
 .carousel-image-3d li.right-pre,
 .carousel-image-3d li.right-1 {
   left: 11.875rem;
   z-index: 5;
-
-  -webkit-transform: perspective(150px) rotateY(-30deg);
-  -moz-transform: perspective(150px) rotateY(-30deg);
-  -ms-transform: perspective(150px) rotateY(-30deg);
-  -o-transform: perspective(150px) rotateY(-30deg);
   transform: perspective(150px) rotateY(-30deg);
 }
 .carousel-image-3d li.right-1 {
@@ -120,18 +83,10 @@ html, body {
 .carousel-image-3d li.right-2 {
   left: 9.375rem;
   z-index: 4;
-
-  -webkit-transform: perspective(150px) rotateY(-30deg);
-  -moz-transform: perspective(150px) rotateY(-30deg);
-  -ms-transform: perspective(150px) rotateY(-30deg);
-  -o-transform: perspective(150px) rotateY(-30deg);
   transform: perspective(150px) rotateY(-30deg);
 }
 .carousel-image-3d .img-wrapper {
-  -webkit-border-radius: 0.3125rem;
-  -moz-border-radius: 0.3125rem;
   border-radius: 0.3125rem;
-
   width: 10.90625rem;
   height: 12.1875rem;
   overflow: hidden;
